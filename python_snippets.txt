@@ -1,0 +1,89 @@
+###########################
+#### INTEGERS & FLOATS ####
+###########################
+
+# Arithmetic Operators:
+# Addition:       3 + 2
+# Subtraction:    3 - 2
+# Multiplication: 3 * 2
+# Division:       3 / 2
+# Floor Division: 3 // 2
+# Exponent:       3 ** 2
+# Modulus:        3 % 2
+
+
+# Comparisons:
+# Equal:            3 == 2
+# Not Equal:        3 != 2
+# Greater Than:     3 > 2
+# Less Than:        3 < 2
+# Greater or Equal: 3 >= 2
+# Less or Equal:    3 <= 2
+# Object Identity:  is
+
+
+
+######################
+#### CONDITIONALS ####
+######################
+
+# False Values:
+    # False
+    # None
+    # Zero of any numeric type
+    # Any empty sequence. For example, '', (), [].
+    # Any empty mapping. For example, {}.
+
+condition = False
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
+
+###############
+#### LISTS ####
+###############
+
+# Mutable
+list_1 = ['History', 'Math', 'Physics', 'CompSci']
+list_2 = list_1
+
+print(list_1)
+print(list_2)
+
+# list_1[0] = 'Art'
+
+# print(list_1)
+# print(list_2)
+
+
+# Immutable
+# tuple_1 = ('History', 'Math', 'Physics', 'CompSci')
+# tuple_2 = tuple_1
+
+# print(tuple_1)
+# print(tuple_2)
+
+# tuple_1[0] = 'Art'
+
+# print(tuple_1)
+# print(tuple_2)
+
+# Sets
+cs_courses = {'History', 'Math', 'Physics', 'CompSci'}
+print(cs_courses)
+
+# Empty Lists
+empty_list = []
+empty_list = list()
+
+# Empty Tuples
+empty_tuple = ()
+empty_tuple = tuple()
+
+# Empty Sets
+empty_set = {} # This isn't right! It's a dict
+empty_set = set()
+
+
+
